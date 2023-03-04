@@ -1,3 +1,5 @@
+package pl.coderslab;
+
 public class sleepTime {
     public static  void sleep(String message, int time, String message2){
         System.out.println(message);

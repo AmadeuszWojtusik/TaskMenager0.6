@@ -1,3 +1,4 @@
+package pl.coderslab;
 import java.io.FileWriter;
 import java.io.File;
 import java.io.IOException;
@@ -176,7 +177,7 @@ public class writeFile {
             }
         }else if (!WetherOverwrite) {
 
-/** =================JEŻELI MAM PYTAĆ CZY NADPISAĆ PLIK NA STAŁE ŚCIEŻCE====================**/
+/** =================JEŻELI MAM PYTAĆ CZY NADPISAĆ PLIK NA STAŁEJ ŚCIEŻCE====================**/
             File f = new File(StaticPath);
             if(f.exists() && !f.isDirectory()) {
                 System.out.println(ConsoleColors.YELLOW + "Taki plik już istnieje!\nCzy na pewno chcesz go nadpisać?\n TAK       NIE" + ConsoleColors.RESET);
