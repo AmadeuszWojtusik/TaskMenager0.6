@@ -1,4 +1,4 @@
-package pl.coderslab.readAndWrite;
+package pl.coderslab.readAndWriteAndCreate;
 
 import pl.coderslab.Colors.ConsoleColors;
 
