@@ -1,4 +1,4 @@
-package pl.coderslab;
+package pl.coderslab.Sleeps;
 
 public class sleepTime {
     public static  void sleep(String message, int time, String message2){

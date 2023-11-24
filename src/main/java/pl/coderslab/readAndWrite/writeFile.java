@@ -1,4 +1,7 @@
-package pl.coderslab;
+package pl.coderslab.readAndWrite;
+import pl.coderslab.Colors.ConsoleColors;
+import pl.coderslab.Sleeps.sleepTime;
+
 import java.io.FileWriter;
 import java.io.File;
 import java.io.IOException;

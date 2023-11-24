@@ -1,4 +1,4 @@
-package pl.coderslab;
+package pl.coderslab.Colors;
 
 /**
  * https://stackoverflow.com/a/45444716

@@ -1,6 +1,10 @@
 package pl.coderslab;
 
 import org.apache.commons.lang3.ArrayUtils;
+import pl.coderslab.Colors.ConsoleColors;
+import pl.coderslab.readAndWrite.readFile;
+import pl.coderslab.readAndWrite.readInput;
+import pl.coderslab.readAndWrite.writeFile;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -13,12 +17,14 @@ public class main {
     //==============================================================================================
     static Scanner scan = new Scanner(System.in);
     static String[][] tasks = readFile.fileToTableXTwo(Path, scan);
+
     public static void main(String[] args) {
 
         //String[][] tasks = readFile.fileToTableXTwo(Path, scan);
 
         boolean exit = false;
 
+/** ============================ PĘTLA MENU ========================== **/
         while (!exit) {
             optionsPrint(options);
             String option = scan.next();
@@ -42,6 +48,7 @@ public class main {
             }
         }
     }
+// =================================================================
 
     /** ============= MENU WYBORU OPCJI ============ **/
     public static void optionsPrint(String[] tab) {

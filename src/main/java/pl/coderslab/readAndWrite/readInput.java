@@ -1,6 +1,7 @@
-package pl.coderslab;
+package pl.coderslab.readAndWrite;
 
-import java.text.ParseException;
+import pl.coderslab.Colors.ConsoleColors;
+
 import java.text.SimpleDateFormat;
 import java.util.Scanner;
 import java.util.Date;
